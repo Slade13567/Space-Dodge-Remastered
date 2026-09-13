@@ -91,7 +91,7 @@ vel = 6.5
 # loop stuff ~
 run = True
 background_img = pygame.transform.scale(background_img, (Width, Height +10))
-lives = 10
+lives = 15
 game_over = False
 death_sound_played = False
 death_time = 0
@@ -776,7 +776,7 @@ while main_game_run:
                     game_state_variables[3] = 0
                     game_state_variables[4] = []
                     game_state_variables[6] = []
-                    #spawned_lasers = set()
+                    game_state_variables[7] = set()
                     game_state_variables[8] = 15
                     game_state_variables[9] = False
                     game_state_variables[10] = False
@@ -809,7 +809,7 @@ while main_game_run:
                     game_state_variables[3] = 0
                     game_state_variables[4] = []
                     game_state_variables[6] = []
-                    #spawned_lasers = set()
+                    game_state_variables[7] = set()
                     game_state_variables[8] = 15
                     game_state_variables[9] = False
                     game_state_variables[10] = False
