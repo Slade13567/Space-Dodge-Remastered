@@ -42,21 +42,6 @@ python main.py
 If PowerShell blocks the activation script, use Command Prompt and run
 `.venv\Scripts\activate.bat` instead. The game opens in fullscreen mode.
 
-## Project Structure
-
-```text
-Space-Dodge/
-|-- Assets/
-|   |-- sprites/              # Ship, hazards, background, and UI images
-|   `-- sfx/                  # Music and sound effects
-|-- main.py                   # Original game code
-|-- requirements.txt          # Python dependency
-|-- README.md
-|-- LICENSE                   # Original code only
-|-- THIRD_PARTY_NOTICES.md
-`-- .gitignore
-```
-
 ## What I Learned
 
 This was my first ever programming project.
