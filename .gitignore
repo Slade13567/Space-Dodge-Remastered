@@ -1,0 +1,37 @@
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+*.spec
+
+# IDE and editor files
+.idea/
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs, crash dumps, and temporary files
+*.log
+*.dmp
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Generated executables
+*.exe
